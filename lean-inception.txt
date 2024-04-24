@@ -78,7 +78,7 @@ PERSONAS
   USER JOURNEY
 
   Acorda cedo para correr ->  volta para casa -> toma banho e se arruma para o trabalho -> prepara um café da manha rápido 
-  -> desce para garagem com telefone na mao ->  fica nervoso pensando como vai ser dificil achar vaga 
+  -> vai garagem usando telefone ->  fica nervoso pensando como vai ser dificil achar vaga 
   -> abre o aplicativo e adiciona seu destino -> o aplicativo mostra 3 vagas na regiao -> tempo estimado de chegada 15 minutos
   ->  chegou ainda haviam 2 vagas disponiveis na região
 
