@@ -1,0 +1,218 @@
+
+Quem são seus stakeholders, usuário e clientes?
+ - Empresa ideias quentes nos contratou para fazer esse projeto acontecer
+ - Os clientes do projeto desenvolvido para ideias quentes são todos os motoristas da cidade Trugunbulandia
+ - Nossa equipe conta com 1 gerente de projeto, 1 Scrum Master (compartilhado), 1 PO, 1 designer, 2 frontends, 2 backends, 1 devOps (compartilhado)
+ 
+-------------------------------
+
+para:  Motoristas
+whose: tem dificuldade de achar vagas para estacionar
+o : vaga certa, é um: app
+que: facilitar a jornada de achar uma vaga
+diferente de: vaga certa da prefeitura
+nosso produto: ajuda achar uma vaga proxima do seu destino
+
+--------------------------------
+
+is: mobile app, multi-platform, free, android, ios, multimedia app, auxilia achar vagas para estacionar, 
+is not: GPS, website app, 
+does: recebe seu destino, lista vagas disponiveis na area, mostra vagas sendo ocupada em tempo real pela distancia dos carros, mostra grafico de estimativa com melhores horarios daquela regiao, lista estacionamentos gratuitos, pagos na rua, e pagos fechados com seguranca.
+does not: gerencia pagamentos, nao garante seguranca do local, nao gerencia tamanho da vaga para carros grandes, 
+
+-------------------------------
+
+PERSONAS
+
+  João Barreto
+  20 anos
+  Solteiro
+  Estudante de direito
+  Trabalha no centro
+
+  Apressado
+  Autista
+  Viciado em telefone
+  Classe alta
+
+  Estuda 3 dias por semana,e precisa achar vagas proximo da universidade
+  Trabalha todos os dias, e sofre para achar vagas no centro
+  Finais de semana, ele dorme ate tarde, e sofre para conseguir vagas na praia
+
+  *************************************
+
+  Maria do Carmo
+  34 Anos
+  Divorciada
+  Engenheira de software
+  Trabalha remoto
+
+  Atenta aos detalhes
+  Feminista
+  Classe media alta
+  Fisicamente ativa
+
+  Visita o escritorio 1 vez por semana na zona sul do Rio
+  Trabalha 4 dias remotamente por semana
+  sofre para conseguir vagas quando vai para o yoga, ou aula de surf
+
+  *************************************
+
+  Adalbeto da Silva
+  57 anos
+  Casado
+  Empresário
+  Trabalha metade do dia no escritorio, outra metade na rua
+
+  Comprometido
+  Pontual
+  Calmo
+  workholic
+
+  Trabalha pela manha no escritorio, e pela tarde visita os seus empreendimentos
+  Tem dificuldade para conseguir vagas em algumas regioes, e não gosta de pagar estacionamentos caros
+  Já teve problemas com os famosos "flanelinhas"
+
+  ----------------------------------------------
+
+  USER JOURNEY
+
+  Acorda cedo para correr ->  volta para casa -> toma banho e se arruma para o trabalho -> prepara um café da manha rápido 
+  -> desce para garagem com telefone na mao ->  fica nervoso pensando como vai ser dificil achar vaga 
+  -> abre o aplicativo e adiciona seu destino -> o aplicativo mostra 3 vagas na regiao -> tempo estimado de chegada 15 minutos
+  ->  chegou ainda haviam 2 vagas disponiveis na região
+
+
+  Sai de casa para o yoga pela tarde -> quando ela chega no carro, adiciona o destino no android auto 
+  -> o aplicativo apresenta 2 vagas na regiao
+  -> ela se dirige para regiao -> chegando no local o aplicativo mostra 5 vagas -> 3 foram abertas enquanto ela dirigia 
+  -> ela estacionou na mais proxima
+
+
+  Saí de casa pela manha ->  sem pressa, e dirige com calma -> coloca o endereço no aplicativo no telefone ->  
+  acha 2 vagas -> chega no local e estaciona na melhor -> 
+
+  ------------------------------------------------
+
+PRODUCT GOALS
+
+- inserir o endereço e tracar rota
+- verificar vagas disponiveis na area
+- criar conta usuario
+- logar
+- esqueci senha
+- logar com redes sociais
+- acompanhamento de vagas em tempo real
+- oferecer vagas em estacionamentos fechados
+
+---------------------------------------------------
+
+TECHNICAL BUSSINESS, USER EXPERIENCE and BUSINESS REVIEW
+
+- inserir o endereço e tracar rota - EEE $$$ HHH
+- verificar vagas disponiveis na area - EEE $$$ HHH
+- criar conta usuario - EE $$ HH
+- logar - EE $$ HH
+- esqueci senha - EE $$ HH
+- logar com redes sociais - EE $ HHH
+- acompanhamento de vagas em tempo real -  EEE $$$ HHH
+- oferecer vagas em estacionamentos fechados - EE $$ HHH
+
+---------------------------------------------------
+
+SEQUENCER
+
+- inserir o endereço e tracar rota - EEE $$$ HHH
+- verificar vagas disponiveis na area - EEE $$$ HHH
+
+- criar conta usuario - EE $$ HH
+- logar - EE $$ HH
+- esqueci senha - EE $$ HH
+- logar com redes sociais - EE $ HHH
+
+- acompanhamento de vagas em tempo real -  EEE $$$ HHH
+- oferecer vagas em estacionamentos fechados - EE $$ HHH
+
+---------------------------------------------------
+
+MVP CANVAS 1
+
+- MVP Proposal
+
+Entregar a funcionalidade básica de achar um ponto, traçar rotas e mostrar vagas.
+
+- Segmented personas
+
+Adalbeto da Silva
+
+- Journey improved
+
+Acorda cedo para correr ->  volta para casa -> toma banho e se arruma para o trabalho -> prepara um café da manha rápido 
+  -> desce para garagem com telefone na mao ->  fica nervoso pensando como vai ser dificil achar vaga 
+  -> abre o aplicativo e adiciona seu destino -> o aplicativo mostra 3 vagas na regiao -> tempo estimado de chegada 15 minutos
+  ->  chegou ainda haviam 2 vagas disponiveis na região
+
+- Featured
+
+Traçar rota, e listar vagas disponiveis
+
+- Expected Result
+
+O aprendizado nesta etapa é achar os pontos batendo na api google maps, e com as coordenadas listar as vagas ao redor dessa região
+acessando a API dos parquimetros.
+
+- Metrics to validate
+
+Validar retorno das rotas e vagas em diferentes pontos da cidade onde possuem parquimetros inteligentes.
+
+- Cost
+
+2 semanas
+
+
+ ***************************************
+
+
+MVP CANVAS 2
+
+- MVP Proposal
+
+Implementar o acompanhamento de vagas em tempo real, e oferecimento de vagas em estacionamentos privados conveniados.
+
+- Segmented personas
+
+João Barreto
+
+- Journey improved
+
+Saí de casa pela manha ->  sem pressa, e dirige com calma -> coloca o endereço no aplicativo no telefone ->  
+  acha 2 vagas -> chega no local e estaciona na melhor ->
+
+- Featured
+
+listar vagas em tempo real, e oferecer vagas em estacionamentos privados caso não haja vagas na rua
+
+- Expected Result
+
+O aprendizado nesta etapa é manter uma conexao em tempo real com a API dos parquimetros, caso não haja vagas, acessar API
+dos estacionamentos privados.
+
+- Metrics to validate
+
+Validar vagas disponiveis, caso não hajam vamos oferecer outro recurso
+
+- Cost
+
+2 semanas
+
+
+
+
+
+
+
+
+
+
+
+
