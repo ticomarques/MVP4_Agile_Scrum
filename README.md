@@ -5,7 +5,7 @@ https://miro.com/app/board/uXjVKe1oe40=/?share_link_id=695774987389
 
 # Jira
 
-O pdf com as telas está na pasta jira
+O pdf com as telas está na pasta pdf.
 
 # Prototipo
 
